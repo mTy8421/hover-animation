@@ -6,3 +6,7 @@
     transform: rotate(20deg) skew(-10deg, -5deg);
     transition: box-shadow 0.25s ease-in;
 }
+
+.card:hover{
+    box-shadow: rgba(255, 255, 255, 0.5) 5px 3px, rgba(255, 255, 255, 0.4) 10px 6px, rgba(255, 255, 255, 0.3) 15px 9px;
+}
